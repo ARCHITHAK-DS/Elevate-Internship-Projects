@@ -14,7 +14,7 @@
 &nbsp;
 [![Tableau](https://img.shields.io/badge/Tableau-Live%20Dashboard-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/views/EVChargingDemandForecastingTableaudashboard/Dashboard1)
 &nbsp;
-[![Streamlit](https://img.shields.io/badge/Streamlit-Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://your-ltv-app.streamlit.app)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)]((https://customer--ltv--prediction.streamlit.app/))
 
 </div>
 
@@ -80,7 +80,7 @@
 ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?logo=streamlit&logoColor=white&style=flat-square)
 ![Excel](https://img.shields.io/badge/-Excel-217346?logo=microsoft-excel&logoColor=white&style=flat-square)
 
-**[🌐 Try the Live App](https://your-ltv-app.streamlit.app)** &nbsp;·&nbsp;
+**[🌐 Try the Live App]((https://customer--ltv--prediction.streamlit.app/))** &nbsp;·&nbsp;
 **[📓 Open Notebook](./project-1-ltv/Customer_LTV_Prediction.ipynb)** &nbsp;·&nbsp;
 **[📄 Read Report](./project-1-ltv/LTV_Project_Report.pdf)** &nbsp;·&nbsp;
 **[📊 Excel Report](./project-1-ltv/LTV_Excel_Report.xlsx)**
