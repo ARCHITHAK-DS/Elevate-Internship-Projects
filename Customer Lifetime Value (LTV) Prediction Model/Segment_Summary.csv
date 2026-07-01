@@ -1,0 +1,5 @@
+Segment,CustomerCount,AvgPredictedLTV,AvgActualLTV
+Low,693,303.84,221.8
+Medium,686,397.51,423.29
+High,686,839.78,840.94
+VIP,689,4733.91,4727.39
