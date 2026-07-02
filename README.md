@@ -83,8 +83,8 @@
 
 **[🌐 Try the Live App](https://customer--ltv--prediction.streamlit.app/)** &nbsp;·&nbsp;
 **[📁 GitHub Repo](https://github.com/ARCHITHAK-DS/Customer_LTV_Prediction)** &nbsp;·&nbsp;
-**[📓 Open Notebook](./Customer_LTV_Prediction.ipynb)** &nbsp;·&nbsp;
-**[📄 Read Report](./LTV_Project_Report.pdf)**
+**[📓 Open Notebook](Customer_LTV_Prediction.ipynb)** &nbsp;·&nbsp;
+**[📄 Read Report](LTV_Project_Report.pdf)**
 
 </div>
 
