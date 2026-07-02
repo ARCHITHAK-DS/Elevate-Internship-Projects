@@ -83,8 +83,6 @@
 
 **[🌐 Try the Live App](https://customer--ltv--prediction.streamlit.app/)** &nbsp;·&nbsp;
 **[📁 GitHub Repo](https://github.com/ARCHITHAK-DS/Customer_LTV_Prediction)** &nbsp;·&nbsp;
-**[📓 Open Notebook](Customer_LTV_Prediction.ipynb)** &nbsp;·&nbsp;
-**[📄 Read Report](LTV_Project_Report.pdf)**
 
 </div>
 
@@ -235,8 +233,6 @@ streamlit run app.py
 
 **[📊 Live Tableau Dashboard](https://public.tableau.com/views/EVChargingDemandForecastingTableaudashboard/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** &nbsp;·&nbsp;
 **[📁 GitHub Repo](https://github.com/ARCHITHAK-DS/EV-Charging-Demand-Project)** &nbsp;·&nbsp;
-**[📓 Open Notebook](./EV_Charging_Notebook.ipynb)** &nbsp;·&nbsp;
-**[📄 Read Report](./EV_Project_Report.pdf)**
 
 </div>
 
