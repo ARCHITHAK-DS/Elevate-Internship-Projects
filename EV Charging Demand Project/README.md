@@ -6,13 +6,12 @@
 
 ![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Prophet](https://img.shields.io/badge/Prophet-Forecasting-0072B5?style=for-the-badge&logo=meta&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-Heatmap-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-Report-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
 <br/>
 
-### 🌐 [Live Demo →](https://your-app-link.streamlit.app) &nbsp;&nbsp; 📓 [View Notebook →](./EV_Charging_Notebook.ipynb) &nbsp;&nbsp; 📊 [See Report →](./EV_Project_Report.pdf)
+### 🌐 [Live Dashboard →](https://your-app-link.streamlit.app) &nbsp;&nbsp; 📓 [View Notebook →](./EV_Charging_Notebook.ipynb) &nbsp;&nbsp; 📊 [See Report →](./EV Project Report.pdf)
 
 <br/>
 
