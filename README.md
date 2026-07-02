@@ -10,11 +10,11 @@
 
 [![LinkedIn](https://img.shields.io/badge/Architha%20K-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/architha-k-a22b4539a)
 &nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-username)
+[![GitHub](https://img.shields.io/badge/ARCHITHAK--DS-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ARCHITHAK-DS)
 &nbsp;
-[![Tableau](https://img.shields.io/badge/Tableau-Live%20Dashboard-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/views/EVChargingDemandForecastingTableaudashboard/Dashboard1)
+[![Tableau](https://img.shields.io/badge/Tableau-Live%20Dashboard-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/views/EVChargingDemandForecastingTableaudashboard/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 &nbsp;
-[![Streamlit](https://img.shields.io/badge/Streamlit-Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)]((https://customer--ltv--prediction.streamlit.app/))
+[![Streamlit](https://img.shields.io/badge/Streamlit-Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://customer--ltv--prediction.streamlit.app/)
 
 </div>
 
@@ -51,6 +51,7 @@
 | **Bonus** | 4-tier Segmentation · Glassmorphism App | Anomaly Detection · Optimizer Engine |
 | **Dashboard** | Streamlit (Live 🟢) | Tableau Public (Live 🟢) |
 | **Accuracy** | R² = 0.847 · MAE ₹124 | Prophet RMSE 26% < ARIMA |
+| **GitHub** | [Repo →](https://github.com/ARCHITHAK-DS/Customer_LTV_Prediction) | [Repo →](https://github.com/ARCHITHAK-DS/EV-Charging-Demand-Project) |
 
 </div>
 
@@ -80,10 +81,10 @@
 ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?logo=streamlit&logoColor=white&style=flat-square)
 ![Excel](https://img.shields.io/badge/-Excel-217346?logo=microsoft-excel&logoColor=white&style=flat-square)
 
-**[🌐 Try the Live App]((https://customer--ltv--prediction.streamlit.app/))** &nbsp;·&nbsp;
-**[📓 Open Notebook](./project-1-ltv/Customer_LTV_Prediction.ipynb)** &nbsp;·&nbsp;
-**[📄 Read Report](./project-1-ltv/LTV_Project_Report.pdf)** &nbsp;·&nbsp;
-**[📊 Excel Report](./project-1-ltv/LTV_Excel_Report.xlsx)**
+**[🌐 Try the Live App](https://customer--ltv--prediction.streamlit.app/)** &nbsp;·&nbsp;
+**[📁 GitHub Repo](https://github.com/ARCHITHAK-DS/Customer_LTV_Prediction)** &nbsp;·&nbsp;
+**[📓 Open Notebook](./Customer_LTV_Prediction.ipynb)** &nbsp;·&nbsp;
+**[📄 Read Report](./LTV_Project_Report.pdf)**
 
 </div>
 
@@ -185,20 +186,21 @@
 ### 🗂 Project Files
 
 ```
-📦 project-1-ltv/
+📦 Customer_LTV_Prediction/
 ├── 📓 Customer_LTV_Prediction.ipynb   10-step ML notebook (run top to bottom)
 ├── 🌐 app.py                          Streamlit app — Glassmorphism UI
 ├── 📊 LTV_Excel_Report.xlsx           4-sheet Excel: Predictions·Segments·RFM·Metrics
 ├── 📽️  LTV_Presentation.pptx          8-slide dark-theme portfolio deck
 ├── 📄 LTV_Project_Report.pdf          2-page formal project report
-├── 🤖 ltv_model.pkl                   Trained XGBoost model (after running notebook)
+├── 🤖 ltv_model.pkl                   Trained XGBoost model (generated after notebook)
 └── 📋 requirements.txt                Python dependencies
 ```
 
 ### ⚡ Quick Start
 
 ```bash
-cd project-1-ltv
+git clone https://github.com/ARCHITHAK-DS/Customer_LTV_Prediction.git
+cd Customer_LTV_Prediction
 pip install -r requirements.txt
 # Download OnlineRetail.xlsx from Kaggle → place here
 jupyter notebook Customer_LTV_Prediction.ipynb
@@ -232,8 +234,9 @@ streamlit run app.py
 ![Tableau](https://img.shields.io/badge/-Tableau-E97627?logo=tableau&logoColor=white&style=flat-square)
 
 **[📊 Live Tableau Dashboard](https://public.tableau.com/views/EVChargingDemandForecastingTableaudashboard/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** &nbsp;·&nbsp;
-**[📓 Open Notebook](./project-2-ev/EV_Charging_Notebook.ipynb)** &nbsp;·&nbsp;
-**[📄 Read Report](./project-2-ev/EV_Project_Report.pdf)**
+**[📁 GitHub Repo](https://github.com/ARCHITHAK-DS/EV-Charging-Demand-Project)** &nbsp;·&nbsp;
+**[📓 Open Notebook](./EV_Charging_Notebook.ipynb)** &nbsp;·&nbsp;
+**[📄 Read Report](./EV_Project_Report.pdf)**
 
 </div>
 
@@ -256,7 +259,7 @@ streamlit run app.py
            ▼
   ┌──────────────────────────────────────────────┐
   │  FEATURE ENGINEERING                          │
-  │  Time  → hour · weekday · month · is_weekend  │
+  │  Time    → hour · weekday · month · weekend   │
   │  Weather → temperature · rainfall · wind      │
   │  Station → capacity · city · utilisation %    │
   └──────────────────┬───────────────────────────┘
@@ -275,6 +278,9 @@ streamlit run app.py
            ANOMALY DETECTION           OPTIMIZATION ENGINE
            Z-score > 3.0               Top 5 slots by
            Flags spikes & drops        availability %
+                    │                            │
+                    ▼                            ▼
+          EV_Anomaly_Report.csv    EV_Optimization_Strategy.csv
 ```
 
 <br/>
@@ -332,25 +338,10 @@ streamlit run app.py
 
 <br/>
 
-### 📊 Live Tableau Dashboard
-
-```
-🔗 https://public.tableau.com/views/EVChargingDemandForecastingTableaudashboard/Dashboard1
-
-Contains:
-  🟣  Demand Heatmap    Hour × Weekday intensity grid
-  📈  Monthly Trend     Seasonal demand curve across 12 months
-  ⚡  Station Compare   Utilisation % per station (bar chart)
-  🌡️   Weather Impact   Temperature & rainfall vs demand scatter
-  🔴  Anomaly Markers  Flagged unusual spikes overlaid on timeline
-```
-
-<br/>
-
 ### 🗂 Project Files
 
 ```
-📦 project-2-ev/
+📦 EV-Charging-Demand-Project/
 ├── 📓 EV_Charging_Notebook.ipynb      10-step forecasting notebook
 ├── 📊 EV_Charging_Demand.csv          Raw dataset (43,800 rows)
 ├── 📊 EV_Tableau_Ready.csv            Aggregated CSV — Tableau data source
@@ -364,13 +355,13 @@ Contains:
 ### ⚡ Quick Start
 
 ```bash
-cd project-2-ev
+git clone https://github.com/ARCHITHAK-DS/EV-Charging-Demand-Project.git
+cd EV-Charging-Demand-Project
 pip install -r requirements.txt
 jupyter notebook EV_Charging_Notebook.ipynb
-# Open EV_Tableau_Ready.csv in Tableau Public for the dashboard
 ```
 
-> ⚠️ **Use Python 3.10 or 3.11.** Python 3.13 has compatibility issues with Prophet and statsmodels.
+> ⚠️ Use Python 3.10 or 3.11. Python 3.13 has compatibility issues with Prophet and statsmodels.
 
 <br/>
 
@@ -389,7 +380,7 @@ jupyter notebook EV_Charging_Notebook.ipynb
 | **Features** | RFM + Tenure + AOV | Weather + Temporal |
 | **Validation** | MAE · RMSE · R² | MAE · RMSE · Precision-Recall |
 | **Bonus** | Segmentation + Streamlit App | Anomaly Detection + Optimizer |
-| **Dashboard** | Streamlit (Live) | Tableau Public (Live) |
+| **Dashboard** | Streamlit (Live 🟢) | Tableau Public (Live 🟢) |
 | **Reports** | Excel 4-sheet + PPTX 8-slide | Excel + 4 CSVs |
 | **PDF Report** | ✅ 2-page | ✅ 2-page |
 
@@ -402,11 +393,9 @@ jupyter notebook EV_Charging_Notebook.ipynb
 ## 📁 Full Repository Structure
 
 ```
-📦 data-science-portfolio/
+📦 ARCHITHAK-DS (GitHub)
 │
-├── 📄 README.md                            ← You are here
-│
-├── 📁 project-1-ltv/
+├── 📁 Customer_LTV_Prediction/
 │   ├── 📓 Customer_LTV_Prediction.ipynb
 │   ├── 🌐 app.py
 │   ├── 📊 LTV_Excel_Report.xlsx
@@ -414,7 +403,7 @@ jupyter notebook EV_Charging_Notebook.ipynb
 │   ├── 📄 LTV_Project_Report.pdf
 │   └── 📋 requirements.txt
 │
-└── 📁 project-2-ev/
+└── 📁 EV-Charging-Demand-Project/
     ├── 📓 EV_Charging_Notebook.ipynb
     ├── 📊 EV_Charging_Demand.csv
     ├── 📊 EV_Tableau_Ready.csv
@@ -436,17 +425,16 @@ jupyter notebook EV_Charging_Notebook.ipynb
 | Status | Feature |
 |:---:|:---|
 | ✅ Done | LTV Prediction — XGBoost + RFM Pipeline |
-| ✅ Done | LTV Streamlit App — Glassmorphism UI |
+| ✅ Done | LTV Streamlit App — Glassmorphism UI — [Live](https://customer--ltv--prediction.streamlit.app/) |
 | ✅ Done | LTV Excel 4-sheet Report + PPTX Deck |
 | ✅ Done | EV Forecasting — ARIMA + Prophet |
 | ✅ Done | EV Anomaly Detection — Z-score Engine |
 | ✅ Done | EV Optimization Engine — Best Slot Recommender |
-| ✅ Done | EV Live Tableau Dashboard |
+| ✅ Done | EV Live Tableau Dashboard — [Live](https://public.tableau.com/views/EVChargingDemandForecastingTableaudashboard/Dashboard1) |
 | ⬜ Next | SHAP Explainability for LTV model |
 | ⬜ Next | BG/NBD Probabilistic CLV Model |
 | ⬜ Next | Live Weather API Integration for EV |
 | ⬜ Next | LSTM Deep Learning Comparison |
-| ⬜ Next | Combined Multi-Project Streamlit Portfolio App |
 
 </div>
 
@@ -462,7 +450,9 @@ jupyter notebook EV_Charging_Notebook.ipynb
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/Connect%20on-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/architha-k-a22b4539a)
+[![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-Architha%20K-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/architha-k-a22b4539a)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-ARCHITHAK--DS-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ARCHITHAK-DS)
 
 </div>
 
