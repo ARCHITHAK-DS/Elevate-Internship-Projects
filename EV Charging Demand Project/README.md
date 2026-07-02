@@ -12,7 +12,7 @@
 
 <br/>
 
-### 🌐 [Live Demo →](https://your-app-link.streamlit.app) &nbsp;&nbsp; 📓 [View Notebook →](./EV_Charging_Notebook.ipynb) &nbsp;&nbsp; 📊 [See Report →](./EV Project Report.pdf)
+### 🌐 [Live Demo →](https://your-app-link.streamlit.app) &nbsp;&nbsp; 📓 [View Notebook →](./EV_Charging_Notebook.ipynb) &nbsp;&nbsp; 📊 [See Report →](./EV_Project_Report.pdf)
 
 <br/>
 
