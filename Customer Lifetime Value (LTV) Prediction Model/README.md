@@ -15,7 +15,7 @@
 <br/>
 
 <!-- DEMO LINK -->
-### 🌐 [Live Demo →]((https://customer--ltv--prediction.streamlit.app/)) &nbsp;&nbsp; 📓 [View Notebook →](#) &nbsp;&nbsp; 📊 [See Report →](#)
+### 🌐 [Live Demo →](https://customer--ltv--prediction.streamlit.app/) &nbsp;&nbsp; 📓 [View Notebook →](#) &nbsp;&nbsp; 📊 [See Report →](#)
 
 <br/>
 
